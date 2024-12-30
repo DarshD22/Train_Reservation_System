@@ -4,7 +4,7 @@ const nextConfig = {
           return [
             {
               source: '/api/:path*',
-              destination: 'http://localhost:5000/api/:path*',  // Proxy to backend
+              destination: 'https://train-reservation-system-yob2.onrender.com/api/:path*',  // Proxy to backend
             },
           ];
         },
