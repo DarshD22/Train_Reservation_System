@@ -11,7 +11,7 @@ dotenv.config();
 connectDB();
 
 const app=express();
-app.use(cors({ origin: 'http://localhost:3000', }));
+app.use(cors({ origin: 'https://train-reservation-system-theta.vercel.app/', }));
 app.use(express.json());
 app.use('/api/auth',authRoutes);
 app.use('/api/bookings',bookingRoutes);
